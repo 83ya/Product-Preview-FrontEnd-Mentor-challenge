@@ -1,0 +1,109 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    width: 1440px;
+  
+}
+
+.container{
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    margin-left: 20%;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    max-height: 30em;
+    max-width: 30em;
+}
+/*This is the image class*/
+.product{
+    position: relative;    
+    height:50px;
+   max-width: 50%;
+}
+
+.details{
+    padding-right: 10px; 
+    margin-left: 20px;
+    
+}
+p{
+    font-size: 10px;
+    color: hsl(228, 12%, 48%)
+}   
+
+.perfume{
+    letter-spacing: 5px;
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Fraunces', serif;
+    font-size: 28x;
+    padding-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.product{
+    height:fit-content;
+    width: 80%;
+    margin-right: 7px;
+}
+
+.description{
+    margin-top: 0px;
+    line-height: 15px;
+   padding-right: 10%;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.perfume .brand .description .button{
+    position: relative;
+}
+
+#price1{
+    color:  hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    margin-right: 100px;  
+    font-size: 20px;
+
+}
+
+#price2{
+    margin-left: 20px;
+    font-size: 10px;
+    text-decoration: line-through;
+  
+}
+
+.prices{
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 8px 40px;
+    width: 90%;
+    border-radius: 8px;
+    color:  white;
+    border-color: hsl(158, 36%, 37%) ;
+    border: 1px;
+    background-color:  hsl(158, 36%, 37%) ;
+    bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: .5s;
+}
+
+button:hover{
+    cursor: pointer ;
+}
+.attribution{
+    position: fixed;
+    bottom: 10px;
+    left: 40%;
+}
