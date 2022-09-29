@@ -30,8 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Here is my Git website solution:https://83ya.github.io/Product-Preview-FrontEnd-Mentor-challenge/
 
 ## My process
 I first made the wrote the HTML code in VS code. I added the tags like <p> and <h1> for the description and brand name respsectively. I used a <table> for the prices. And I used the <button> tag for the button. I also added classes and ids which 
@@ -94,7 +93,7 @@ https://www.youtube.com/watch?v=Pp7UXS3P6jY&list=PLxLWP49nS_V5ySalVQJ27eLkSC1QBg
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Atria Montejo] (https://83ya.github.io/Product-Preview-FrontEnd-Mentor-challenge/)
 
 
 ## Acknowledgments
