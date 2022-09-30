@@ -1,23 +1,23 @@
 body{
     background-color: hsl(30, 38%, 92%);
-   margin: 0; 
-   width: 100%;
-   min-height: 100vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-  
+    margin: 0; 
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   
 }
 
 .container{
     display: flex;
     border: none;
-    border-radius: 0px 15px 15px 0px;
+    border-radius: 15px;
     background-color: hsl(0, 0%, 100%);
     max-height: 30em;
     max-width: 30em;
+    overflow: hidden;
 }
 /*This is the image class*/
 .product{
@@ -25,6 +25,7 @@ body{
     position: relative;    
     height:50px;
    max-width: 50%;
+   
 }
 
 .details{
@@ -106,8 +107,9 @@ button{
 button:hover{
     cursor: pointer ;
 }
-.attribution{
+
+footer {
     position: fixed;
     bottom: 10px;
-    left: 40%;
-}
+    text-align: center; /* this center the text*/
+    width: 100%; 
